@@ -6,7 +6,7 @@ mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh()
 
 # Image
-image = cv2.imread("f1.jpg")
+image = cv2.imread("f2.jpg")
 #rgb_image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 height, width, _ = image.shape
 #print("Height, Width", height, width)
